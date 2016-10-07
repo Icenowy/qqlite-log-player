@@ -1,0 +1,13 @@
+# Runtime files
+*.db
+chatlog.txt
+
+# Binary files
+dedb/decrypt
+dedb/decrypt.o
+
+# Config
+dedb/config.sh
+
+# speak.py is still not able to be redistributed.
+message_gen/speak.py

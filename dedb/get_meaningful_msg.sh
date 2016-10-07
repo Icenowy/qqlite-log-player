@@ -1,0 +1,1 @@
+sh dedb/get_decrypted.sh | sed '/^;$/d' | sed 's///g' | sed 's///g' | sed 's/	//g' | sed 's///g' | sed 's///g' | sed 's///g' | sed 's/‮/ /g' | sed '/^$/d' | sed '/^ $/d' | sed '/^>0/d' | sh message_deal/derubbish.sh

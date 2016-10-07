@@ -1,0 +1,1 @@
+sed 's/^ *//g' | sed 's/\[emoji\]//g' | sed 's/\[图片\]//g' | sed '/^$/d' | sed 's/^ *//g' | sed '/^$/d' | sed '/\[QQ红包\]/d' | sed '/已加入该群/d' | sed '/https*:\/\//d' | sed '/【链接】/d' | sed '/[位置]/d' | sort | uniq
